@@ -1,5 +1,5 @@
 require 'pry'
-'../lib/concerns/paramable'
+require_relative  '../lib/concerns/paramable'
 
 class Song
   attr_accessor :name
