@@ -7,6 +7,7 @@ class Song
   @@songs = []
 
   def initialize
+    super
     @@songs << self
   end
 
